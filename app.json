@@ -14,20 +14,20 @@
         },
         "INDEX_SETTINGS":{
             "description":"Refer project docs for info.",
-            "value": "{
-    "index_all": false,
-    "index_private":false,
-    "index_group": false,
-    "index_channel": true,
-    "exclude_chats": [],
-    "include_chats": [49672cc68d8325ff97358d7170b1921f],
-    "otg": {
-        "enable": false,
-        "include_private": false,
-        "include_group": true,
-        "include_channel": true
-    }
-}"
+            "value": {
+                "index_all": false,
+                "index_private":false,
+                "index_group": false,
+                "index_channel": true,
+                "exclude_chats": [],
+                "include_chats": "[49672cc68d8325ff97358d7170b1921f]",
+                "otg": {
+                    "enable": false,
+                    "include_private": false,
+                    "include_group": true,
+                    "include_channel": true
+                }
+            }
         },
         "SESSION_STRING":{
             "description":"Your session string.",
